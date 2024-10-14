@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe5e5;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 3vw;
+    max-width: 75vw;
+    margin: 5vw;
+  }
+  
+  .container .tenor-gif-embed {
+    max-width: 25vw;
+  }
+  
+  .container .btn {
+    display: flex;
+    gap: 10vw;
+  }
+  
+  .btn a {
+    text-decoration: none;
+    color: #111;
+    background: #fff;
+    padding: 1vw 2vw;
+    border-radius: 2vw;
+    box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
+  }
